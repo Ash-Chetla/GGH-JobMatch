@@ -112,9 +112,7 @@ RESUME:\n${resume}\nJOB DESCRIPTION:\n${jobDesc}`;
         <div style={{ maxWidth: "960px", margin: "0 auto", padding: "0 24px" }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "64px" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-              <div style={{ width: "34px", height: "34px", borderRadius: "9px", background: C.accent, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 8px rgba(26,122,74,0.3)" }}>
-                <span style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>G</span>
-              </div>
+            <img src="/logo.jpg" alt="Go Get Hired Consulting" style={{ width: "40px", height: "40px", borderRadius: "9px", objectFit: "cover" }} />
               <div style={{ fontWeight: "700", fontSize: "17px", color: C.text, letterSpacing: "-0.01em" }}>
                 GGH <span style={{ color: C.accent }}>JobMatch</span>
               </div>
